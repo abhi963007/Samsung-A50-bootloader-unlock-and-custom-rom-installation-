@@ -1,0 +1,17 @@
+# Ignore large binary archives, tools, firmware images, and system packages
+*.zip
+*.tar
+*.img
+*.exe
+*.apk
+
+# Ignore Odin tool directory and executables
+Odin/
+[Oo]din/
+*.dll
+*.ini
+
+# Allow python scripts and documentation
+!avbtool.py
+!README.md
+!*.md
